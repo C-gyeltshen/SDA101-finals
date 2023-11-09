@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    font-size: 20px;
+}
+.one {
+    width: 100%;
+    height: 100vh;
+    background-image: url("backgroud.avif");
+    padding-top: 9%;
+}
+@font-face {
+    font-family:A;
+    src: url(yo.ttf);
+}
+
+@font-face {
+    font-family: B;
+    src: url(Tealand.ttf);
+}
+h1{
+    font-size: 360%;
+    color: #fabf47;
+    font-weight:bolder;
+    font-family: A;
+    text-align: center;
+    margin: 0px;
+}
+h3 {
+    font-size: 200%;
+    color: white;
+    font-family: A;
+    text-align: center;
+    margin: 0px;
+}
+p {
+    font-size: 120%;
+    font-family: B;
+    color: white;
+    text-align:center;
+}
+li {
+    font-size: 120%;
+    font-family: B;
+    color: white;  
+}
+.two {
+    padding-left: 30%;
+}
+
+/* NaveBar css code  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:"poppins",fontA;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 200%;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navbar a {
+    position: relative;
+    font-size: 130%;
+    color: #fff;
+    margin-left: 40px;
+
+}
+.navbar a ::before {
+    contain: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color:#fff;
+    transition: .3s;
+}
+.navbar a:hover::before {
+    width: 100%;
+}

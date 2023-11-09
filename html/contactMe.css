@@ -1,0 +1,195 @@
+body {
+    margin: 0px;
+    font-size: 20px;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(backgroud.avif);
+}
+.one {
+    width: 100%;
+    height: 10%;
+    background-image: url(backgroud.avif);
+}
+.two {
+    width: 100%;
+    height: 25%;
+    background-color: white;
+}
+@font-face {
+    font-family: f1;
+    src: url(yo.ttf);
+}
+h1{
+    font-size: 300%;
+    font-weight: bolder;
+    font-family: f1;
+    color:#fabf47;
+    text-align: center;
+    margin: 0px;
+}
+@font-face {
+    font-family: f2;
+    src: url(Tealand.ttf);
+}
+p{
+    font-size: 120%;
+    color: black;
+    font-family: f2;
+    text-align: center;
+    margin: 0px;
+
+    
+}
+.sec{
+    width: 80%;
+    height: 60%;
+    display: flex;
+}
+.yo{
+    width: 26%;
+    height: 100%;
+    background-color: aquamarine;
+    background-image: url(backgroud.avif);
+}
+.yo1{
+    width: 74%;
+    height: 100%;
+    background-color: white;
+    border-radius: 2px;
+}
+.i {
+    width: 100%;
+    height: 10%;
+    background-color:white;
+    border: 2px solid black;
+}
+#get {
+    font-size: 120%;
+    font-family: f2;
+    color: black;
+    padding-top: 1.5%;
+}
+.l{
+    width: 100%;
+    height: 20%;
+    border: 2px solid black;
+    display: flex;
+    background-color: aliceblue;
+}
+
+.o {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border:2px solid black;
+    border-radius: 2px;
+}
+.v{
+    width: 50%;
+    height: 100%;
+    background-color:white;
+    border:2px solid black;
+    border-radius: 2px;
+}
+.e{
+    width: 100%;
+    height: 15%;
+    border: 2px solid black;
+    background-color:white;
+}
+#y {
+    font-size: 120%;
+    font-family: f2;
+    color: black;
+    padding-top: 3%;
+}
+.o1{
+    width: 100%;
+    height: 15%;
+    border: 2px solid black;
+    background-color:white;
+}
+#bob {
+    font-size: 120%;
+    font-family: f2;
+    color: black;
+    padding-top: 3%;
+}
+.bab{
+    width: 100%;
+    height: 40%;
+    background-color:white;
+    border: 2px solid black;
+    border-radius: 2px;
+
+}
+#he {
+    font-size: 120%;
+    font-family: f2;
+    color: black;
+    padding-top: 10%;
+}
+#hah {
+    font-size: 120%;
+    font-family: f2;
+    color:black;
+    padding-top: 6%;
+}
+#heh {
+    font-size: 120%;
+    font-family: f2;
+    color: black;
+    padding-top: 6%;
+}
+
+
+/* Navebare css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:"poppins",fontA;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 200%;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navbar a {
+    position: relative;
+    font-size: 130%;
+    color: #fff;
+    margin-left: 40px;
+
+}
+.navbar a ::before {
+    contain: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color:#fff;
+    transition: .3s;
+}
+.navbar a:hover::before {
+    width: 100%;
+}
+
+
