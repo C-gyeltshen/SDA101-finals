@@ -31,30 +31,65 @@ p{
     text-align: center;
 }
 .sec{
-    padding-left: 20%;
     width: 60%;
     height: 40%;  
-    background-color: yellowgreen; 
     display: flex;
-    /* margin: auto; */
     margin-left: 20%;
+    background-color: #fff;
+    border-radius: 10px;
+    
     
 }
-.py {
-    width :50%;
-    height: 100%;
-    background-color: aqua;
-}
-.per{
-    width: 50%;
+.one{
+    width: 25%;
     height: 100%;
     background-color: #fabf47;
+    border-radius: 10px 0px 0px 10px;
+    padding-right: 1px;
 }
-.ml{
-    width: 50%;
+#persona {
+    width: 100%;
     height: 100%;
-    background-color: black;
+    border-radius: 10px 0px 0px 10px;
+
 }
+.two{
+    width: 25%;
+    height: 100%;
+    background-color: aquamarine;
+    padding-right: 1px;
+}
+#art{
+    width: 100%;
+    height: 100%;
+
+}
+
+.three{
+    width: 25%;
+    height: 100%;
+    background-color:green;
+    padding-right: 1px;
+}
+#auto {
+    width: 100%;
+    height: 100%;
+}
+.four{
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+}
+#ml {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+
+/* navbar */
 
 *{
     margin: 0;
@@ -74,9 +109,9 @@ p{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    border-radius: 10px;
+    /* border-radius: 10px;
     margin: 15px;
-    margin-right: 15px;
+    margin-right: 15px; */
 }
 .logo {
     font-size: 200%;
